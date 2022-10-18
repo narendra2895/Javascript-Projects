@@ -15,8 +15,7 @@ $(document).ready(function(){
         $('.img1').css("marginLeft","-80%");
     });
     $('a').click(function(){
-       $(this).addClass('active').siblings()
-                .removeClass('active');
+       $(this).addClass('active').siblings().removeClass('active');
     });
 ``
 });
